@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://menulink.xyz
+
+# Sitemaps
+Sitemap: https://menulink.xyz/sitemap.xml

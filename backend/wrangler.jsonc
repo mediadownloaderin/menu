@@ -1,0 +1,26 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sumitmenus",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-10-08",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "sumitmenus",
+      "database_id": "2024f62a-e75b-43ba-b796-186c3c4aecf8"
+    }
+  ],
+  "vars": {
+    "JWT_SECRET": "super-secret-key-sumitmenus",
+    "APP_ENV": "development",
+    "UPLOADTHING_TOKEN": "eyJhcGlLZXkiOiJza19saXZlX2VlMzBhNzMzNDZkYWQxZTZmZTkxMDIwNGM3Njc3NzFmMzkwZDAzMTdjYTBiMmFmYWQ3MjZhYTU1NmM3ZWY1OTYiLCJhcHBJZCI6Img0dHpvdmV1OHkiLCJyZWdpb25zIjpbInNlYTEiXX0="
+  },
+  "r2_buckets": [
+  {
+    "binding": "MY_FILES",
+    "bucket_name": "sumitmenus-files"
+  }
+]
+
+
+}
